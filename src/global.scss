@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,66 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+body,
+main {
+  background: #f2f2f2;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  p {
+    margin: 5px;
+  }
+
+  &-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &-lastname {
+    font-size: 14px;
+  }
+  &-text {
+    color: #0f2c70;
+  }
+}
+
+.paragraph{
+  &-primary{
+    font-size: 16px;
+    color: #0f2c70;
+  }
+}
+
+.input{
+  background: white;
+  border: 2px solid #029ec5;
+  padding: .8rem .5rem;
+  border-radius: 25px;
+
+  &-wrapper{
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+
+.button-primary{
+  outline: none;
+  border: 2px solid #029ec5;
+  padding: 1rem;
+  border-radius: 25px;
+  background: #029ec5;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: auto;
+  max-width: 280px;
+  min-width: 280px;
+}

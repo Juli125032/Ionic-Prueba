@@ -1,0 +1,56 @@
+.menu{
+
+  &-list{
+    margin: 0;
+    padding: 0;
+
+    ion-item{
+      padding-left: 1rem;
+      color: white;
+      font-size: 14px;
+      border: none;
+      box-shadow: none;
+    }
+
+    &--primary{
+      ion-icon{
+        color: #6bfd6a;
+        margin-right: 10px;
+      }
+    }
+
+    &--secondary{
+      margin-top: 3rem;
+      ion-icon{
+        color: #029ec5;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  ion-header{
+    padding: 4rem 2rem;
+
+    &::after{
+      height: 0px;
+    }
+  }
+
+  ion-header, ion-content, ion-list, ion-item, ion-toolbar{
+    background: #0f2c70;
+    --background: #0f2c70;
+  }
+
+
+
+  &-name{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  &-lastname{
+    font-size: 12px;
+    text-align: center;
+  }
+}
+

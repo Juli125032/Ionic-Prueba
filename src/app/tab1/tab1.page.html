@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content [fullscreen]="true" class="d-flex ion-justify-content-center ion-align-items-center">
+  <ion-row class="d-flex ion-justify-content-center">
+    <ion-col size="12" class="ion-padding-vertical">
+      <div class="avatar">
+        <p class="avatar-text">Hola</p>
+        <ion-avatar>
+          <ion-img src="../../assets/images/avatar.png"></ion-img>
+        </ion-avatar>
+        <p class="avatar-text avatar-name">Maria Camila</p>
+        <p class="avatar-text avatar-lastname">Arenas Mazo</p>
+      </div>
+    </ion-col>
+    <ion-col size="12" class="ion-padding-vertical">
+      <p class="avatar-text ion-text-center">Elige una categoria</p>
+      <div class="category">
+        <ion-row>
+          <ion-col size="4">
+            <div class="category-item">
+              <div class="category-button">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <p>Horario</p>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="category-item">
+              <div class="category-button">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <p>Horario</p>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="category-item">
+              <div class="category-button">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <p>Horario</p>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="category-item">
+              <div class="category-button">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <p>Horario</p>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="category-item">
+              <div class="category-button">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <p>Horario</p>
+            </div>
+          </ion-col>
+          <ion-col size="4">
+            <div class="category-item">
+              <div class="category-button">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+              <p>Horario</p>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-col>
+  </ion-row>
 </ion-content>
